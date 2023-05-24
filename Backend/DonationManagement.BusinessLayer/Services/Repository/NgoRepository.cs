@@ -1,0 +1,67 @@
+﻿using DonationManagement.BusinessLayer.Interfaces;
+using DonationManagement.BusinessLayer.ViewModels;
+using DonationManagement.DataLayer;
+using DonationManagement.Entities;
+using Microsoft.Extensions.Configuration;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace DonationManagement.BusinessLayer.Services.Repository
+{
+    public class NgoRepository : INgoRepository
+    {
+        private readonly NgoDbContext _ngoContext;
+        public NgoRepository(NgoDbContext ngoDbContext)
+        {
+            _ngoContext = ngoDbContext;
+        }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="ngoId"></param>
+        /// <returns></returns>
+        public async Task<NgoDetails> FindNgoById(long  ngoId)
+        {
+            //Write Your Code Here
+            throw new NotImplementedException();
+        }
+
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="ngoDetails"></param>
+        /// <param name="password"></param>
+        /// <returns></returns>
+        public async Task<NgoDetails> Register(NgoDetails ngoDetails, string password)
+        {
+            //Write Your Code Here
+            throw new NotImplementedException();
+        }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="model"></param>
+        /// <returns></returns>
+        public async Task<NgoDetails> UpdateNgo(RegisterNgoViewModel model)
+        {
+            //Write Your Code Here
+            throw new NotImplementedException();
+        }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <returns></returns>
+        public async Task<IEnumerable<NgoDetails>> ListAllNgos()
+        {
+            //Write Your Code Here
+            throw new NotImplementedException();
+        }
+    }
+}
