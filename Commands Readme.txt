@@ -2,7 +2,7 @@ BackEnd-Commands
 * On command prompt, cd into your project folder (cd <Your-Project-folder>).
 
 * To connect SQL  server from terminal:
-(CollegeManagement /sqlcmd -S localhost -U sa -P pass@word1)
+(DonationManagement /sqlcmd -S localhost -U sa -P pass@word1)
 	-To create database from terminal - 
 	1> Create Database DonationManagement_Db
 	2> Go
